@@ -4,6 +4,9 @@
 ### What is jenkins?
   - Jenkins is an automation platform that allows us to build, test and deploy softwares using pipelines. Jenkins provide a web gui where we can create jobs and customize functionality such as source control management pre and post build actions as well as build triggers.
 
+------------------------------------------
+------------------------------------------
+
 ### Jenkins Infrastructure
   - Jenkins infrastructure consists of two servers
      - Master Server  : control the pipeline and schedules builds to agents
@@ -12,12 +15,16 @@
   - Example workflow can be a developer commits a code to github the master server is aware of this commit and triggers the appropriate pipeline and distributes the build to one of the agents to run. It selects the appropriate agent based on labels which is configured by us using jenkins UI.
     The agent then runs the build which is usually a bunch of linux commands to build test and distribute the code.
 
+------------------------------------------
+------------------------------------------
 
 ### Types of Jenkins Agents:
    - Usually two types of jenkins agents:
       - Pernament Agents    :   standalone linux or window servers that are configured to run jenkins jobs. The only real setup includes java installed and ssh is setup as master server makes connections over ssh and build tools need to be installed on these servers
       - Cloud Agents        :   Dynamic agents spun up on demand examples include docker, kubernetes or aws fleet manager. Spun up dynamically depend on agent templates you configure.
 
+------------------------------------------
+------------------------------------------
 
 ### Build Types
    - Usually two types of popular Build Types
@@ -29,6 +36,8 @@
              -  Uses the jenkins files written in the groovy syntax to specify what happends during the build. 
              -  Pipelins are usually broken into different stages .i.e clone, build, test, deply
 
+------------------------------------------
+------------------------------------------
 
 ### Jenkins UI
     - Jenkins UI has several components:
@@ -44,6 +53,8 @@
               - new views        :   just like myviews. We can create our own views for jenkins UI.
 
 
+------------------------------------------
+------------------------------------------
 
 
 #### Build Triggers Section comes up with several options. 
@@ -58,12 +69,17 @@
        -  Poll SCM is used when we have a code on github/gitlab and pull scm looks for any changes in the github depending upon the cron job or time we have set.
    - **GitHub hook trigger for GITScm polling** 
        -  triggers job if it sees any change in the github repo without any time set like poll scm.
+
+------------------------------------------
+------------------------------------------
  
 
 #### Build Environments section under freestyle project comes up with several options:
 
    - **Delete workspace before build starts** 
        - by checking this option it will delete the workspace/folder which exists and then start working in the directory. i.e if we have a cloned a github repo and we have not removed the folder then on second build it will give us an error as the folder will already exsist there. so we need to remoe the folder first or we need to select this option.
+------------------------------------------
+------------------------------------------
 
 ####  ENVIRONMENT VARIABLES IN JENKINS
 - **Jenkins by default provides some environment variables which we can use in our job. But these variables have scope only under single job we cannot use the the same variable in another job. For that we can set global variables and use global variables across different jobs. To set the global variables we can go to configure jenkins and then configure system and under global properties we can see environment variables and set themEnvironment variables provided by jenkins are as follows. Each has it own use depending upon the requirement of a user**
@@ -163,6 +179,9 @@
 - **GIT_AUTHOR_EMAIL**
     - The configured Git author email, if any, that will be used for FUTURE commits from the current workspace. It is read from the Global Config user.email Value field of the Jenkins Configure System page.
 
+
+------------------------------------------
+------------------------------------------
 
 #### Jenkins Freestyle Project:
    - A free style project comes up with several options.
