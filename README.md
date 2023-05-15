@@ -20,8 +20,8 @@
 
 ### Types of Jenkins Agents:
    - Usually two types of jenkins agents:
-      - Pernament Agents    :   standalone linux or window servers that are configured to run jenkins jobs. The only real setup includes java installed and ssh is setup as master server makes connections over ssh and build tools need to be installed on these servers
-      - Cloud Agents        :   Dynamic agents spun up on demand examples include docker, kubernetes or aws fleet manager. Spun up dynamically depend on agent templates you configure.
+      - **Permanent Agents**    :   standalone linux or window servers that are configured to run jenkins jobs. The only real setup includes java installed and ssh is setup as master server makes connections over ssh and build tools need to be installed on these servers
+      - **Cloud Agents**        :   Dynamic agents spun up on demand examples include docker, kubernetes or aws fleet manager. Spun up dynamically depend on agent templates you configure.
 
 ------------------------------------------
 ------------------------------------------
