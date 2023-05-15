@@ -85,7 +85,7 @@
    - **Jenkins by default provides some environment variables which we can use in our job. But these variables have scope only under single job we cannot use the the same variable in another job. For that we can set global variables and use global variables across different jobs. To set the global variables we can go to configure jenkins and then configure system and under global properties we can see environment variables and set themEnvironment variables provided by jenkins are as follows. Each has it own use depending upon the requirement of a user**
 
 ```
-      **BRANCH_NAME**
+      - <strong>BRANCH_NAME<strong>
            - For a multibranch project, this will be set to the name of the branch being built, for example in case you wish to deploy to production from master but not from feature branches; if corresponding to some kind of change request, the name is generally arbitrary (refer to CHANGE_ID and CHANGE_TARGET).
       - **BRANCH_IS_PRIMARY**
     	   - For a multibranch project, if the SCM source reports that the branch being built is a primary branch, this will be set to "true"; else unset. Some SCM sources may report more than one branch as a primary branch while others may not supply this information.
