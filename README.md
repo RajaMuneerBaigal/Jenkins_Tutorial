@@ -48,21 +48,21 @@
 
 #### Build Triggers Section comes up with several options. 
 
-   - Trigger builds remotely               
+   - **Trigger builds remotely**               
        -  we can build jobs remotely from scripts using this option. it gives us a url with secret token which we can use by giving the jobname and secret token along with the url.  we can run the job by using curl command in the script with username and pass. i.e curl -u RajaMuneerBaigal:SecretToken jenkinsurl
-   - Build after other projects are built  
+   - **Build after other projects are built**  
        -  this option is used when we want to run one job after other job is successfull or unsuccessfull. it comes with 4-5 options. build the second job after first job is successfull, unsuccessfull or unstable. we can unstable a project by giving an error code in shell script.
-   - Build periodically     
+   - **Build periodically**     
        -  Build periodically means we can build a job every one hour, one minute or two minutes depending upon our need. 
-   - Poll SCM	
+   - **Poll SCM**	
        -  Poll SCM is used when we have a code on github/gitlab and pull scm looks for any changes in the github depending upon the cron job or time we have set.
-   - GitHub hook trigger for GITScm polling 
+   - **GitHub hook trigger for GITScm polling** 
        -  triggers job if it sees any change in the github repo without any time set like poll scm.
  
 
 #### Build Environments section under freestyle project comes up with several options:
 
-   - Delete workspace before build starts 
+   - **Delete workspace before build starts** 
        - by checking this option it will delete the workspace/folder which exists and then start working in the directory. i.e if we have a cloned a github repo and we have not removed the folder then on second build it will give us an error as the folder will already exsist there. so we need to remoe the folder first or we need to select this option.
 
 #### Jenkins by default provides some environment variables which we can use in our job. But these variables have scope only under single job we cannot use the the same variable in another job. For that we can set global variables and use global variables across different jobs. To set the global variables we can go to configure jenkins and then configure system and under global properties we can see environment variables and set them 
