@@ -40,7 +40,7 @@
 ------------------------------------------
 
 ### Jenkins UI
-    - Jenkins UI has several components:
+    - Jenkins UI has several components
         - menubar 
            - A top bar with Jenkins title and a search button on the right to search on jenkins jobs, username and logout button
         - sidebar 
