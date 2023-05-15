@@ -44,13 +44,13 @@
        - **menubar** 
           - A top bar with Jenkins title and a search button on the right to search on jenkins jobs, username and logout button
        - **sidebar** 
-          - new item         :   its the way we create new item and jobs in jenkins.
-          - people	     :   its where we manage user accounts
-          - build history    :   gives us history of all our run jobs
-          - manage jenkins   :   has all management stuff. this is where we will setup agents and install plugins.
-          - myviews	     :   just a way to organize jobs and have things displayed nicely
-          - open blue ocean  :   just enhaces our cicd pipelines
-          - new views        :   just like myviews. We can create our own views for jenkins UI.
+          - **new item**        	 :   its the way we create new item and jobs in jenkins.
+          - **people**	        	 :   its where we manage user accounts
+          - **build history**   	 :   gives us history of all our run jobs
+          - **manage jenkins**  	 :   has all management stuff. this is where we will setup agents and install plugins.
+          - **myviews**	        	 :   just a way to organize jobs and have things displayed nicely
+          - **open blue ocean** 	 :   just enhaces our cicd pipelines
+          - **new views**                :   just like myviews. We can create our own views for jenkins UI.
 
 
 ------------------------------------------
