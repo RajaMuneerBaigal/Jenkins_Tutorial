@@ -9,8 +9,8 @@
 
 ### Jenkins Infrastructure
   - Jenkins infrastructure consists of two servers
-     - Master Server  : control the pipeline and schedules builds to agents
-     - Agents         : which runs the build in the workspace
+     - **Master Server**  : control the pipeline and schedules builds to agents
+     - **Agents**         : which runs the build in the workspace
 
   - Example workflow can be a developer commits a code to github the master server is aware of this commit and triggers the appropriate pipeline and distributes the build to one of the agents to run. It selects the appropriate agent based on labels which is configured by us using jenkins UI.
     The agent then runs the build which is usually a bunch of linux commands to build test and distribute the code.
