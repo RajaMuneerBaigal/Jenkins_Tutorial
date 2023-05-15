@@ -28,11 +28,11 @@
 
 ### Build Types
    - Usually two types of popular Build Types
-       - Freestyle build
+       - **Freestyle build**
           -  simplest method to create a build 
           -  simply shell scripts will be run on a server that can be triggered by specific events 
 
-       - Pipelines
+       - **Pipelines**
           -  Uses the jenkins files written in the groovy syntax to specify what happends during the build. 
           -  Pipelins are usually broken into different stages .i.e clone, build, test, deply
 
