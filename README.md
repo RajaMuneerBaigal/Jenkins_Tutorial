@@ -41,9 +41,9 @@
 
 ### Jenkins UI
    - Jenkins UI has several components
-       - menubar 
+       - **menubar** 
           - A top bar with Jenkins title and a search button on the right to search on jenkins jobs, username and logout button
-       - sidebar 
+       - **sidebar** 
           - new item         :   its the way we create new item and jobs in jenkins.
           - people	     :   its where we manage user accounts
           - build history    :   gives us history of all our run jobs
