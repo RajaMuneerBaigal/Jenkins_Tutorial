@@ -183,19 +183,13 @@
 ------------------------------------------
 ------------------------------------------
 
-#### Jenkins Freestyle Project:
-   - A free style project comes up with several options.
+### Jenkins Freestyle Project:
+   - A free style project UI comes up with several options
 
-    1. General:
-       General Sections comes up with several options:
-          - 
-
-    2. Source Code Management   :
-
-    3. Build Triggers           :
-
-    4. Build Environment        :
- 
-    5. Build Steps              :
-
-    6. Post-build Actions       :
+      -  General:
+         General Sections comes up with several options
+      - Source Code Management
+      - Build Triggers
+      - Build Environment 
+      - Build Steps 
+      - Post-build Actions
