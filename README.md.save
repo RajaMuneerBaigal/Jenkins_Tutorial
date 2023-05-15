@@ -1,0 +1,48 @@
+## This is my first tutorial of Jenkins
+
+
+### What is jenkins?
+  - Jenkins is an automation platform that allows us to build, test and deploy softwares using pipelines. Jenkins provide a web gui where we can create jobs and customize functionality such as source control management pre and post build actions as well as build triggers.
+
+### Jenkins Infrastructure
+  - Jenkins infrastructure consists of two servers
+     - Master Server  : control the pipeline and schedules builds to agents
+     - Agents         : which runs the build in the workspace
+
+  - Example workflow can be a developer commits a code to github the master server is aware of this commit and triggers the appropriate pipeline and distributes the build to one of the agents to run. It selects the appropriate agent based on labels which is configured by us using jenkins UI.
+    The agent then runs the build which is usually a bunch of linux commands to build test and distribute the code.
+
+
+### Types of Jenkins Agents:
+   - Usually two types of jenkins agents:
+      - Pernament Agents    :   standalone linux or window servers that are configured to run jenkins jobs. The only real setup includes java installed and ssh is setup as master server makes connections over ssh and build tools need to be installed on these servers
+      - Cloud Agents        :   Dynamic agents spun up on demand examples include docker, kubernetes or aws fleet manager. Spun up dynamically depend on agent templates you configure.
+
+
+### Build Types
+   - Usually two types of popular Build Types
+       - Freestyle build    
+             -  simplest method to create a build 
+             -  simply shell scripts will be run on a server that can be triggered by specific events 
+
+       - Pipelines: 
+             -  Uses the jenkins files written in the groovy syntax to specify what happends during the build. 
+             -  Pipelins are usually broken into different stages .i.e clone, build, test, deply
+
+
+
+
+
+### Jenkins UI
+    - Jenkins UI has several components:
+        - menubar 
+              - A top bar with Jenkins title and a search button on the right to search on jenkins jobs, username and logout button
+        - sidebar 
+              - new item         :   its the way we create new item and jobs in jenkins.
+              - people	         :   its where we manage user accounts
+              - build history    :   gives us history of all our run jobs
+              - manage jenkins   :   has all management stuff. this is where we will setup agents and install plugins.
+              - myviews	         :   just a way to organize jobs and have things displayed nicely
+              - open blue ocean  :   just enhaces our cicd pipelines
+              - new views        :   just like myviews
+   
