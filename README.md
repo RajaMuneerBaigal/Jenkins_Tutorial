@@ -27,9 +27,9 @@
 ------------------------------------------
 
 ### Types of Jenkins
+![Screenshot from 2023-05-18 20-46-11](https://github.com/RajaMuneerBaigal/Jenkins_Tutorial/assets/105891199/54c479d1-4f98-44c8-90a7-068f6350ef9b)
 
---------------![Screenshot from 2023-05-18 20-46-11](https://github.com/RajaMuneerBaigal/Jenkins_Tutorial/assets/105891199/54c479d1-4f98-44c8-90a7-068f6350ef9b)
-----------------------------
+------------------------------------------
 ------------------------------------------
 ### Build Types
    - Usually two types of popular Build Types
