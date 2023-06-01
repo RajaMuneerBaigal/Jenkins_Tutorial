@@ -1,4 +1,4 @@
-## This is my first tutorial of Jenkins
+## Getting used to Jenkins
 
 
 ### What is jenkins?
@@ -7,6 +7,11 @@
 ------------------------------------------
 ------------------------------------------
 
+### Why jenkins?
+  - Traditionally what used to happen was that when a client needed a software first step was to gather requirements and make planings.After that developers used to code it and when the coding was done, a built was created and then the build was tested and released but the issue during this development life cycle was that at the end we get an application or a part in application that is missing or not requried so the whole life cycle was repeated again. It was time consuming as well as resource ineffecient. To overcome this issue agile methodology came which broke down the whole life cycle to simple smaller steps. While the small steps eased the development life cycle but it required tools such as jenkins to fetch the code create a build and test the build and once the build is succssful it should notify the developer that it is working properly or not depending upon the test result. This saved time as well as the resources. Jenkins uses different plugins such as git, github, maven, junit to fetch code build it and run unit tests respectively.
+
+------------------------------------------
+------------------------------------------
 ### Jenkins Infrastructure
   - Jenkins infrastructure consists of two servers
      - **Master Server**  : control the pipeline and schedules builds to agents
