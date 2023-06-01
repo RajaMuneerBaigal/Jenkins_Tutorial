@@ -49,11 +49,11 @@
 ------------------------------------------
 ------------------------------------------
 
-### Jenkins UI
-   - Jenkins UI has several components
+### Jenkins UI Overview:
+   - Jenkins UI consists of the following components:
        - **menubar** 
           - A top bar with Jenkins title and a search button on the right to search on jenkins jobs, username and logout button
-       - **sidebar** 
+       - **sidebar - leftbar** 
           - **new item**        	 :   its the way we create new item and jobs in jenkins.
           - **people**	        	 :   its where we manage user accounts
           - **build history**   	 :   gives us history of all our run jobs
@@ -193,14 +193,3 @@
 ```
 ------------------------------------------
 ------------------------------------------
-
-### Jenkins Freestyle Project:
-   - A free style project UI comes up with several options
-
-      -  General:
-         General Sections comes up with several options
-      - Source Code Management
-      - Build Triggers
-      - Build Environment 
-      - Build Steps 
-      - Post-build Actions
