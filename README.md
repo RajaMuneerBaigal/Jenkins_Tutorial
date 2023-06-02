@@ -32,7 +32,7 @@
 ------------------------------------------
 
 ### Types of Jenkins
-![Screenshot from 2023-05-18 20-46-11](https://github.com/RajaMuneerBaigal/Jenkins_Tutorial/assets/105891199/54c479d1-4f98-44c8-90a7-068f6350ef9b)
+file:///home/raju/Pictures/Screenshots/Screenshot%20from%202023-06-02%2011-46-07.png(https://github.com/RajaMuneerBaigal/Jenkins_Tutorial/assets/105891199/54c479d1-4f98-44c8-90a7-068f6350ef9b)
 
 ------------------------------------------
 ------------------------------------------
