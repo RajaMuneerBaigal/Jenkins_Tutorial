@@ -31,22 +31,6 @@
 ------------------------------------------
 ------------------------------------------
 
-### Types of Jenkins
-![image](https://github.com/RajaMuneerBaigal/Jenkins_Tutorial/assets/105891199/b9587f47-ec4b-4277-bf22-c493e9e12c60)
-
-------------------------------------------
-------------------------------------------
-### Build Types
-   - Usually two types of popular Build Types
-       - **Freestyle build**
-          -  simplest method to create a build 
-          -  simply shell scripts will be run on a server that can be triggered by specific events 
-
-       - **Pipelines**
-          -  Uses the jenkins files written in the groovy syntax to specify what happends during the build. 
-          -  Pipelins are usually broken into different stages .i.e clone, build, test, deply
-
-------------------------------------------
 ------------------------------------------
 
 ### Jenkins UI Overview:
@@ -196,4 +180,21 @@
 
 ```
 ------------------------------------------
+------------------------------------------
+
+### Types of Jenkins
+![image](https://github.com/RajaMuneerBaigal/Jenkins_Tutorial/assets/105891199/b9587f47-ec4b-4277-bf22-c493e9e12c60)
+
+------------------------------------------
+------------------------------------------
+### Build Types
+   - Usually two types of popular Build Types
+       - **Freestyle build**
+          -  simplest method to create a build 
+          -  simply shell scripts will be run on a server that can be triggered by specific events 
+
+       - **Pipelines**
+          -  Uses the jenkins files written in the groovy syntax to specify what happends during the build. 
+          -  Pipelins are usually broken into different stages .i.e clone, build, test, deply
+
 ------------------------------------------
