@@ -182,7 +182,7 @@
 ------------------------------------------
 ------------------------------------------
 
-### Types of Jenkins
+### Types of Jenkins Pipelines
 ![image](https://github.com/RajaMuneerBaigal/Jenkins_Tutorial/assets/105891199/b9587f47-ec4b-4277-bf22-c493e9e12c60)
 
 ------------------------------------------
