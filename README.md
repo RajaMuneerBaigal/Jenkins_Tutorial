@@ -196,5 +196,15 @@
        - **Pipelines**   - Pipeline and Multi-stage pipeline
           -  Uses the jenkins files written in the groovy syntax to specify what happends during the build. 
           -  Pipelins are usually broken into different stages .i.e clone, build, test, deply
-
+          
+       **NOTE**
+          - The pipeline build type doesn't has alot of options like a freestyle project does. But the main part of the pipelines project is Jenkinsfiel which is actually a groovy script with commands to define what needs to be done.
 ------------------------------------------
+### Multistage pipelines:
+   - A multistage pipeline is used when we have several branches in our github repo and each needs to run some job via jenkinsfile. 
+      i.e A good example is that we have three branches on our github like linux,windows and macOs. each branch has code and Jenkins file in it. The endgoal is to run and build the code on each machine to test the behaviour of our code on each Operating system.
+      
+   **Some Important Points about Multistage Pipelines** 
+   - A multistage pipelines follows 
+     
+
