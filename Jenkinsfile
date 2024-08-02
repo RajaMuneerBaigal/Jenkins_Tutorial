@@ -1,18 +1,17 @@
 pipeline {
     agent { 
-        node {
-            label 'docker-agent-python'
+        docker {
+            image 'python:3.12.4-alpine3.20'
             }
       }
-    triggers {
-        pollSCM '* * * * *'
-    }
+  
     stages {
         stage('Build') {
             steps {
                 echo "Building.."
                 sh '''
                 cd myapp
+                apk add py3-pip
                 pip install -r requirements.txt
                 '''
             }
